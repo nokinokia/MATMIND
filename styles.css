@@ -1,0 +1,107 @@
+/* General Reset */
+body,
+h1,
+h2,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+body {
+    background: url("https://media2.giphy.com/media/3og0ILLVvPp8d64Jd6/giphy.webp?cid=790b7611z0tbt02yab9nw6m6fk6fhfzjbr6tq299hwvyvapy&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+    color: #ffffff;
+}
+
+/* Header */
+.main-header {
+    background: url("https://media2.giphy.com/media/3og0ILLVvPp8d64Jd6/giphy.webp?cid=790b7611z0tbt02yab9nw6m6fk6fhfzjbr6tq299hwvyvapy&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url("https://media2.giphy.com/media/3og0ILLVvPp8d64Jd6/giphy.webp?cid=790b7611z0tbt02yab9nw6m6fk6fhfzjbr6tq299hwvyvapy&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+}
+
+.hero .cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: url("https://media2.giphy.com/media/3og0ILLVvPp8d64Jd6/giphy.webp?cid=790b7611z0tbt02yab9nw6m6fk6fhfzjbr6tq299hwvyvapy&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero .cta-button:hover {
+    transform: scale(1.1);
+}
+
+/* Tokenomics */
+.tokenomics {
+    padding: 30px;
+    background: url("https://media2.giphy.com/media/3og0ILLVvPp8d64Jd6/giphy.webp?cid=790b7611z0tbt02yab9nw6m6fk6fhfzjbr6tq299hwvyvapy&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+    text-align: center;
+}
+
+.tokenomics h2 {
+    color: #ffffff;
+}
+
+/* Roadmap */
+.roadmap {
+    background: url("https://media2.giphy.com/media/3og0ILLVvPp8d64Jd6/giphy.webp?cid=790b7611z0tbt02yab9nw6m6fk6fhfzjbr6tq299hwvyvapy&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+    padding: 30px;
+}
+
+.roadmap ol {
+    list-style: decimal;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Meme Gallery */
+.meme-gallery {
+    padding: 30px;
+    background: url("https://media2.giphy.com/media/3og0ILLVvPp8d64Jd6/giphy.webp?cid=790b7611z0tbt02yab9nw6m6fk6fhfzjbr6tq299hwvyvapy&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+    text-align: center;
+}
+
+.meme-gallery .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.meme {
+    padding: 10px;
+    background: url("https://media2.giphy.com/media/3og0ILLVvPp8d64Jd6/giphy.webp?cid=790b7611z0tbt02yab9nw6m6fk6fhfzjbr6tq299hwvyvapy&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+}
+
+/* Footer */
+footer {
+    background: url("https://media2.giphy.com/media/3og0ILLVvPp8d64Jd6/giphy.webp?cid=790b7611z0tbt02yab9nw6m6fk6fhfzjbr6tq299hwvyvapy&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
